@@ -3,6 +3,8 @@
 set -e
 set -x
 
+. /opt/ros/kinetic/setup.sh
+
 rm -f src/CMakeLists.txt
 catkin_init_workspace src
 
